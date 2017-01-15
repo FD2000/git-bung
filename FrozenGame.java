@@ -129,9 +129,9 @@ public class FrozenGame extends GameScreen
 		frozenBubbles = new Image[8];
 		for (int i=0 ; i<8 ; i++)
 		{
-			bubbles[i] = media.loadImage("bubble-"+Integer.toString(i+1)+".gif");
-                        bubblesBlind[i] = media.loadImage("bubble-colourblind-"+Integer.toString(i+1)+".gif");
-			frozenBubbles[i] = media.loadImage("frozen-"+Integer.toString(i+1)+".gif");
+			bubbles[i] = media.loadImage("bubble-"+Integer.toString(i+1)+".jpg");
+                        bubblesBlind[i] = media.loadImage("bubble-colourblind-"+Integer.toString(i+1)+".jpg");
+			frozenBubbles[i] = media.loadImage("frozen-"+Integer.toString(i+1)+".jpg");
 		}
 		targetedBubbles = new Image[6];
 		for (int i=0 ; i<6 ; i++)
